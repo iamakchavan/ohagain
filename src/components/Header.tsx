@@ -20,9 +20,16 @@ export const Header: React.FC<HeaderProps> = ({
 }) => (
   <div className="border-b border-gray-200 dark:border-gray-700/50">
     <div className="px-4 py-3 flex items-center justify-between">
-      <div className="flex flex-col">
-        <h1 className="text-lg font-bold text-gray-900 dark:text-white">HARVv1</h1>
-        <span className="text-xs text-gray-600 dark:text-gray-400 -mt-1">MARK05-Experimental</span>
+      <div className="flex items-center gap-2">
+        <img 
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/extension_icon%20(3)-P8Z5nJleyOxZxVxwmmIFtqtsNoZ0fy.png" 
+          alt="HARVv1 Logo" 
+          className="w-9 h-9"
+        />
+        <div className="flex flex-col">
+          <h1 className="text-lg font-bold text-gray-900 dark:text-white">HARVv1</h1>
+          <span className="text-xs text-gray-600 dark:text-gray-400 -mt-1">MARK10-Alpha</span>
+        </div>
       </div>
       <div className="flex items-center gap-2">
         <button

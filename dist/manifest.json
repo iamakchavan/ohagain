@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "HARVv1",
-  "version": "1.1.4",
+  "version": "0.5.0",
   "description": "AI-powered browser assistant for webpage analysis and Q&A",
   "permissions": [
     "activeTab",
